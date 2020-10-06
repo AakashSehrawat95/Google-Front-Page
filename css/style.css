@@ -1,0 +1,228 @@
+.body {
+    margin: 0px;
+}
+
+#nav a{
+    float: right;
+    padding: 8px;
+}
+
+#main_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin-top: 320px;
+    left: 50%;
+    width: fit-content;
+    transform: translate(-50%, -50%);
+}
+
+#main_search input{
+    align-items: center;
+}
+
+#main_box {
+    border: solid 1px rgb(218, 218, 218);
+    border-radius: 30px;
+    width: 542px;
+    font: 16px arial,sans-serif;
+    padding: 12px 20px;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 27px;
+    margin-bottom: 15px;
+    height: 20px;
+}
+
+#buttons input {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 14px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#buttons input:hover{
+    border: solid 1px rgb(202, 202, 202);
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px 0px rgb(204, 204, 204);
+    color: rgb(0, 0, 0);
+}
+
+#main_search input:hover{
+    box-shadow: -3px 0px 4px #f7f7f7, 0px 2px 4px #e0e0e0, 3px 0px 4px #f7f7f7;
+}
+
+#main_search input:focus, textarea:focus{
+   outline: none;
+   box-shadow: -3px 0px 4px #f7f7f7, 0px 2px 4px #e0e0e0, 3px 0px 4px #f7f7f7;
+}
+
+text {
+    position: fixed;
+    margin-top: 76px;
+    margin-left: 205px;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    color: #4285f4;
+}
+
+/*--------------- Advanced Search ------------------*/
+
+#nav_advanced {
+    background-color: #f1f1f1;
+    height: 44px;
+    padding: 8px;
+}
+
+#nav_advanced a {
+    float: right;
+    padding: 8px;
+}
+
+#heading {
+    padding: 25px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#heading label {
+    font-family: arial,sans-serif;
+    color: #d93025;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#advanced_search {
+    margin-left: 42px;
+    margin-top: 46px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 16px;
+}
+
+#heads {
+    width: 936px;
+}
+
+#find_head{
+    font-family: arial,sans-serif;
+    color: #333;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+#to_do {
+    float: right;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-top: 1px;
+}
+
+#form_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.lables {
+    font-family: arial,sans-serif;
+    color: #222;
+    line-height: 16px;
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 19px;
+    margin-left:-5px;
+    padding-right: 28px;
+}
+
+#input_table {
+    margin-top: -3px;
+}
+
+.inputs input{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 554px;
+    margin-bottom: 9px;
+}
+
+.inputs input:focus {
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+#guidelines {
+    width: 370px;
+    margin-left: 2px;
+}
+
+#guidelines tr {
+    height: 39px;
+}
+
+
+.tip {
+    font-family: arial,sans-serif;
+    color: #555;
+    font-size: 11px;
+    padding-top: 6px;
+    padding-left: 4px;
+    padding-left: 7px;
+    padding-bottom: 16px;
+}
+
+.mono {
+    font-family: monospace;
+}
+
+#submit {
+    margin-top: 10px;
+    width: 40px;
+    margin-left: 648px;
+    margin-right: auto;
+}
+
+#advanced_search_button {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    outline: 0;
+    padding: 0 8px;
+
+}
+
+#advanced_search_button:hover {
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+    border-image: initial;
+
+}

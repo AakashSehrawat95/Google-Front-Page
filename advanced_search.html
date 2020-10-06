@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel = "stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body class="body">
+
+        <div id = "nav_advanced">
+            
+            <a class="nav_links" href = "image_search.html">Image Search</a>
+            <a href = "index.html">Home</a>
+            <a href = "index.html" style="float: left;"><img src="images\googlelogo_color_272x92dp.png"style="width: 92px;"></a>
+
+        </div>
+
+        <div id = "heading">
+            <label>Advanced Search</lable>
+        </div>
+
+        <form id="advanced_search" action="https://google.com/search">
+
+            <div id="heads">
+                <span id ="find_head">Find pages with... </span>
+                <span id ="to_do">To do this in the search box. </span><br><br>
+            </div>
+            <div id = "form_container">
+
+                <table id = form_elements>
+
+                        <tr>
+                            <td class ="lables"><label> all these words:</label></td>
+                        </tr>
+
+                        <tr>
+                            <td class ="lables"><label> this exact word or phrase:</label></td>
+                        </tr>
+
+                        <tr>
+                            <td class ="lables"><label> any of these words:</label></td>
+                        </tr>
+
+                        <tr>
+                            <td class ="lables"><label> none of these words:</label></td>
+                        </tr>
+
+                        <tr>
+                            <td class ="lables"><label> numbers ranging from:</label></td>
+                        </tr>
+
+                </table>
+
+                <table id="input_table">
+
+                    <tr>
+                        <td class="inputs"><input type="text" name="as_q"></tr></td>
+                    </tr>
+
+                    <tr>
+                        <td class="inputs"><input type="text" name="as_epq"></tr></td>
+                    </tr>
+
+                    <tr>
+                        <td class="inputs"><input type="text" name="as_oq"></tr></td>
+                    </tr>
+
+                    <tr>
+                        <td class="inputs"><input type="text" name="as_eq"></tr></td>
+                    </tr>
+
+                    <tr>
+                        <td class="inputs"><input type="text" style="width: 244px;" name="as_nlo"> <span style="font-family: arial,sans-serif;
+                            color: #222; line-height: 16px; font-size: 13px;">&nbsp;&nbsp;&nbsp;&nbsp;to&nbsp;&nbsp;&nbsp;&nbsp;</span> <input type="text" style="width: 244px;" name="as_nhi"></td>
+                    </tr>
+
+                </table>
+
+                <table id ="guidelines" cellspacing = 0>
+                    <tr>
+                        <td class ="tip"><label> Type the important words: <span class = "mono">tri-colour rat terrier</span></label></td>
+                    </tr>
+
+                    <tr>
+                        <td class ="tip"><label> Put exact words in quotes: <span class = "mono">"rat terrier"</span></label></td>
+                    </tr>
+
+                    <tr>
+                        <td class ="tip"><label> Type OR between all the words you want: <span class = "mono">miniature OR standard</span></label></td>
+                    </tr>
+
+                    <tr>
+                        <td class ="tip"><label>Put a minus sign just before words that you don't want:<span class = "mono">-rodent, -"Jack Russell"</span></label></td>
+                    </tr>
+
+                    <tr>
+                        <td class ="tip"><label> Put two full stops between the numbers and add a unit of measurement:  <span class = "mono">10..35 kg, £300..£500, 2010..2011</span></label></td>
+                    </tr>
+
+                </table>
+
+            </div>
+      
+        <div id = "submit">
+            <button id = "advanced_search_button">Advanced Search</button>
+        </div>
+
+        </form>
+
+    </body>
+
+</html>
