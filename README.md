@@ -6,17 +6,17 @@ ___
 - Page with the search bar.
 - Redirects you to the actual google search results page passing in the query that was entered.
 - I'm Feeling Lucky Button has the exact same functionality as the real google page - automatically opens the first search result.
-![image](documents\1.jpg)
+![image](https://github.com/AakashSehrawat95/Google-Front-Page/blob/master/documents/img1.jpg)
 
 ### Image Search Page:
 - Identical to homepage except searches for images.
 - Redirects to google image results.
-![image](documents\2.jpg)
+![image](https://github.com/AakashSehrawat95/Google-Front-Page/blob/master/documents/img2.jpg)
 
 ### Advanced Search Page:
 - Simplified version of advanced search page of google. 
 - Takes in multiple queries that can be passed on to the url while redirecting the user to the actual search results page with relevant results.
-![image](documents\3.jpg)
+![image](https://github.com/AakashSehrawat95/Google-Front-Page/blob/master/documents/img3.jpg)
 
 ___
 ## Note
